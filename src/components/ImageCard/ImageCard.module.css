@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.likes {
+  position: absolute;
+  top: -4px;
+  right: 8px;
+  color: #ffffff;
+  background-color: #646cff84;
+  border-radius: 4px;
+}
