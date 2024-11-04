@@ -16,7 +16,7 @@ export default function ImageCard({
     onOpenModal();
   };
   return (
-    <div className={css.container}>
+    <li className={css.container}>
       <img
         className={css.img}
         src={small}
@@ -34,6 +34,6 @@ export default function ImageCard({
       />
       {/* <p>{description ? description : "Good picture"}</p> */}
       <p className={css.likes}>👍 {likes}</p>
-    </div>
+    </li>
   );
 }

@@ -7,13 +7,12 @@ export default function ImageGallery({ images, onOpenModal, getDataForModal }) {
     <ul className={css.list}>
       {images.map((image) => {
         return (
-          <li className={css.item} key={image.id}>
-            <ImageCard
-              image={image}
-              onOpenModal={onOpenModal}
-              getDataForModal={getDataForModal}
-            />
-          </li>
+          <ImageCard
+            key={image.id}
+            image={image}
+            onOpenModal={onOpenModal}
+            getDataForModal={getDataForModal}
+          />
         );
       })}
     </ul>
