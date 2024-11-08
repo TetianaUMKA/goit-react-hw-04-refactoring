@@ -28,7 +28,7 @@ export default function ImageModal({
       overlayClassName={css.Overlay}
     >
       <img src={dataForModal.src} alt={dataForModal.alt} />
-      <p>
+      <p className={css.description}>
         {dataForModal.description} / {dataForModal.author} /{" "}
         {dataForModal.location}
       </p>
